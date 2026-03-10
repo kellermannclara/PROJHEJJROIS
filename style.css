@@ -1,0 +1,37 @@
+.joan-regular {
+  font-family: "Joan", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+div.logo {
+    display: flex;
+    padding: 5px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #636363;
+}
+
+div.navega {
+    display: flex;
+    align-items: center;
+}
+div.navega p {
+    padding: 0 5px 0 5px;
+}
+
+div.enzo {
+    margin: 8rem 25rem 8rem 25rem;
+}
+div.banner {
+    background-image: url(imgs/algdao\ karl\ marx.png);
+    padding: 15rem;
+}
+div.banner h2 {
+    font-size: 50px;
+    align-items: center;
+}
+
+
