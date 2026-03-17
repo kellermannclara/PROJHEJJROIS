@@ -4,34 +4,144 @@
   font-style: normal;
 }
 
+body {
+    font-family: "Joan", serif;
+}
+
 div.logo {
     display: flex;
     padding: 5px;
 }
 header {
-    display: flex;
-    justify-content: space-between;
     background-color: #636363;
 }
 
-div.navega {
+
+div.navega ul li {
     display: flex;
     align-items: center;
 }
-div.navega p {
-    padding: 0 5px 0 5px;
+div.navega ul {
+    display: flex;
+   gap: 20px;
+   align-items: center;
+   /* margin: 15px 15px 0 0; */
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
 }
 
 div.enzo {
     margin: 8rem 25rem 8rem 25rem;
 }
-div.banner {
-    background-image: url(imgs/algdao\ karl\ marx.png);
-    padding: 15rem;
+
+/* ALGODOES */
+
+.imagem-container{
+    position: relative;
 }
-div.banner h2 {
-    font-size: 50px;
+
+.imagem-container img{
+    width: 100%;
+    display: block;
+}
+
+.texto p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    width: 43%;
+}
+
+.texto {
+    padding: 40px 0 40px 0;
+}
+
+.local {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    width: 20px;
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin: 100px 0 0 0;
+}
+
+.local p {
+    width: 40%;
+    padding: 4px 0 10px 0;
+}
+
+/* SESSOES DE NAO SEI OQUE  */
+
+.sessoes li {
+    position: relative;
+    margin: 35px;
+}
+
+.sessoes img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+.sessoes p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.sessoes ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+/* REGISTRO  */
+
+.registro {
+    position: relative;
+}
+.registro img {
+    width: 100%;
+    display: block;
+}
+.textoRegistro {
+    text-align: center;
+}
+.textoRegistro p {
     align-items: center;
+    font-size: 50px;
+    /* width: 20%;  nao comsif=go fazer, ele discentraliza */
 }
+.textoRegistro h3 {
+    font-size: 100px;
+}
+
+.textoRegistro button {
+    padding: 20px 50px 20px 50px;
+    border-radius: 50px;
+    background-color: white;
+    /* border: none; */
+    font-size: 50px;
+}
+
+
 
 
