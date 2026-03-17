@@ -9,7 +9,7 @@ body {
 }
 
 
-.cabeca {
+.coisa {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -17,10 +17,15 @@ body {
 
 }
 
-.cabeca span {
+.coisa span {
     color: white;
     font-size: 20px;
 }
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 header {
     background-color: #636363;
@@ -69,6 +74,7 @@ h1.enj {
         url(imgs/algdao\ karl\ marx.png);
     text-align: center;
     padding: 10vw 0 10vw 0;
+    background-size: cover;
 }
 
 .marx p {
@@ -108,32 +114,88 @@ h1.enj {
 
 /* REGISTRO  */
 
-.registro {
-    position: relative;
-}
-.registro img {
-    width: 100%;
-    display: block;
-}
 .textoRegistro {
     text-align: center;
 }
 .textoRegistro p {
     align-items: center;
+    margin: 6vw 0 9vw 15vw;
     font-size: 50px;
+    color: white;
+    max-width: 70vw;   
+
     /* width: 20%;  nao comsif=go fazer, ele discentraliza */
 }
 .textoRegistro h3 {
-    font-size: 100px;
+    margin-top: 3vw;
+    font-size: 6vw;
+    color: white;
 }
 
 .textoRegistro button {
     padding: 20px 50px 20px 50px;
     border-radius: 50px;
     background-color: white;
-    /* border: none; */
+    border: none;
     font-size: 50px;
+    margin-bottom: 6vw  ;
 }
+.textoRegistro {
+    background: url(imgs/sofia-hernandez-8cCfjxR8KTw-unsplash\ 1.png);
+    background-size: cover;
+    /* esse background cover nao deixa a magem ficaar repetida */
+}
+
+
+/* CARDAPIOP */
+
+.cardapio {
+    display: flex;
+   
+}
+.textoCardapio {
+    text-align: left;
+    padding: 3vw 0 0 4vw;
+}
+.textoCardapio h3 {
+    text-align: center;
+    font-size: 5vw;
+}
+.textoCardapio p {
+    padding-top: 1vw;
+    padding-left: 2.5vw;
+    font-size: 3vw;
+    max-width: 40vw;
+}
+
+.cardapio img {
+    margin: 3vw 0 0 3vw;
+    width: 45vw;
+}
+
+.cardapio button {
+    text-align: center;
+    font-size: 45px;
+    padding: 2vw 8vw;
+    background-color: #BABABA;
+    border-radius: 70px;
+    margin: 3vw 0 0 3vw;
+}
+
+
+
+footer {
+    background-color: #BABABA;
+    text-align: center;
+    padding: 8vw;
+    margin-top: 6vw;
+    font-size: 4vw;
+}
+
+footer a {
+    font-size: 6vw;
+}
+
 
 
 
