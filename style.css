@@ -1,7 +1,7 @@
 .joan-regular {
-  font-family: "Joan", serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Joan", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 body {
@@ -21,6 +21,7 @@ body {
     color: white;
     font-size: 20px;
 }
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -82,6 +83,7 @@ h1.enj {
     font-size: 2vw;
     padding-top: 1vw;
 }
+
 /* SESSOES DE NAO SEI OQUE  */
 
 .sessoes li {
@@ -94,6 +96,7 @@ h1.enj {
     display: block;
     border-radius: 10px;
 }
+
 .sessoes p {
     position: absolute;
     top: 50%;
@@ -104,7 +107,7 @@ h1.enj {
     text-align: center;
 }
 
-.sessoes ul{
+.sessoes ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
@@ -117,15 +120,17 @@ h1.enj {
 .textoRegistro {
     text-align: center;
 }
+
 .textoRegistro p {
     align-items: center;
     margin: 6vw 0 9vw 15vw;
     font-size: 50px;
     color: white;
-    max-width: 70vw;   
+    max-width: 70vw;
 
     /* width: 20%;  nao comsif=go fazer, ele discentraliza */
 }
+
 .textoRegistro h3 {
     margin-top: 3vw;
     font-size: 6vw;
@@ -138,8 +143,9 @@ h1.enj {
     background-color: white;
     border: none;
     font-size: 50px;
-    margin-bottom: 6vw  ;
+    margin-bottom: 6vw;
 }
+
 .textoRegistro {
     background: url(imgs/sofia-hernandez-8cCfjxR8KTw-unsplash\ 1.png);
     background-size: cover;
@@ -151,16 +157,19 @@ h1.enj {
 
 .cardapio {
     display: flex;
-   
+
 }
+
 .textoCardapio {
     text-align: left;
     padding: 3vw 0 0 4vw;
 }
+
 .textoCardapio h3 {
     text-align: center;
     font-size: 5vw;
 }
+
 .textoCardapio p {
     padding-top: 1vw;
     padding-left: 2.5vw;
@@ -197,6 +206,126 @@ footer a {
 }
 
 
+/* ==================RESPOMSIVIDADE======================================== */
+
+
+@media (max-width: 600px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .logo {
+        font-size: 10px;
+    }
+
+    .coisa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lista ul {
+        display: flex;
+        /* flex-direction: column; */
+        gap: 10px;
+        padding: 0;
+    }
+
+    /* TITULO */
+
+    h1.enj {
+        font-size: 28px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .marx {
+        text-align: center;
+        padding: 20px 15px;
+    }
+
+    .marx p {
+        font-size: 16px;
+    }
+
+    /* .textoMarx  {
+        font-size: 16px;
+    } */
+
+    /* fotos */
+
+    .sessoes ul {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .sessoes p {
+        font-size: 18px;
+    }
+
+    /* REGISTRO */
+
+    .textoRegistro {
+        padding: 20px;
+    }
+
+    .textoRegistro h3 {
+        font-size: 32px;
+    }
+
+    .textoRegistro p {
+        font-size: 14px;
+    }
+
+    .textoRegistro button {
+        font-size: 14px; 
+        padding: 10px 20px;
+    }
+
+    /* CARDAPIO */
+
+    .cardapio {
+        display: flex; 
+        /* flex-direction: column; */
+    }
+
+    /* .cardapio img {
+        width: 100%;
+    } */
+
+    .textoCardapio {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .textoCardapio h3 {
+        font-size: 28px;
+    }
+
+    .textoCardapio p {
+        font-size: 14px;
+    }
+
+    .textoCardapio button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    /* FOOTEETER */ 
+
+    footer {
+        text-align: center;
+        padding: 20px;
+    }
+
+    
 
 
 
+}
